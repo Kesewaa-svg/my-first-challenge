@@ -1,0 +1,71 @@
+body {
+  background-image: linear-gradient();
+  background-color: #ffd3b6;
+  width: 50%;
+  margin: 50px auto;
+  font-family: monospace;
+}
+
+h1 {
+  text-align: center;
+  color: #53a8b6;
+}
+
+h2 {
+  text-align: center;
+  border: 1px solid #9896f1;
+  padding: 15px;
+  line-height: 1.5;
+  font-size: 20px;
+  border-radius: 4px;
+}
+
+img {
+  display: block;
+  margin: 0 auto;
+  max-width: 80%;
+  border-radius: 10px;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 15px;
+}
+
+button {
+  display: block;
+  margin: 20px auto;
+  background-color: white;
+  font-size: 18px;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 5px 5px 0px rgba(0, 0, 0, 0.3);
+  transition: all 200ms ease-in-out;
+}
+
+button:hover {
+  opacity: 0.9;
+  cursor: pointer;
+}
+
+.football {
+  max-width: 60px;
+  margin: 0 auto;
+  padding: 60px;
+}
+
+.more-info {
+  margin-top: 20px;
+  text-decoration: none;
+  color: #9896f1;
+}
+
+.more-info:hover {
+  text-decoration: underline;
+}
+
+.recognition {
+  text-align: center;
+  font-size: 15px;
+}
