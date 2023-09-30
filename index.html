@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Messi The G.O.A.T</title>
+    <style>
+        body{
+            background-image: linear-gradient();
+            background-color:#FFD3B6 ;
+            width: 50%;
+            margin: 50px auto;
+            font-family:monospace;
+        }
+
+
+
+        h1{
+            text-align: center;
+            color:#53A8B6;
+
+        }
+
+        h2{
+            text-align: center;
+            border: 1px solid #9896F1;
+            padding: 15px;
+            line-height: 1.5;
+            font-size: 20px;
+            border-radius: 4px;
+        }
+        
+        img{
+            display: block;
+            margin: 0 auto;
+            max-width: 80%;
+            border-radius: 10px;
+
+        }
+
+        p{
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        button{
+            display: block;
+            margin: 20px auto;
+            background-color: white;
+            font-size: 18px;
+            padding: 15px 25px;
+            border: none;
+            border-radius: 5px;
+            box-shadow: 5px 5px 0px rgba(0,0,0,0.3);
+            transition: all 200ms ease-in-out;
+        }
+
+        button:hover{
+            opacity: 0.9;
+            cursor: pointer;
+        }
+
+        .football{
+            max-width: 60px;
+            margin: 0 auto;
+            padding: 60px;
+        }
+
+        .more-info{
+            margin-top: 20px;
+            text-decoration: none;
+            color: #9896F1;
+        }
+
+        .more-info:hover{
+            text-decoration: underline;
+        }
+
+        .recognition{
+            text-align: center;
+            font-size: 15px;
+        }
+    </style>
+</head>
+<body>
+    <div. class="football">
+    <h1>
+        I love Football ⚽️
+    </h1>
+    <h2>
+        Favourite player:Greatest of all time(G.O.A.T)- Messi
+        </h2>
+    <img src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/093/988/original/IMG_5896.JPG?1692460251" alt="Messi">
+    <p>
+        <strong>Lionel Andrés Messi,</strong> also known as Leo Messi, is an Argentine professional footballer who plays as a forward for and captains both Major League Soccer club Inter Miami and the Argentina national team.
+         Born in Rosario, Argentina on June 24, 1987, the 36 year old finally won his first World Cup with Argentina that ended the G.O.A.T discussion making him one of the Greatest players of all time.
+    </p>
+    <a href="https://messi.com/en/" target= "blank" class ="more-info"> 
+            Learn more on the Official Website </a>
+    <button class ="sale">
+        👉 Buy Messi Jersey 
+    </button>
+    <p class = "recognition">
+   <em>This page was built by Jess Abiri</em>
+    </p>
+    </div>
+    <script>
+        function negotiation() {
+            let name = prompt("What is your name?😃")
+            let email = prompt("What is your email address?📧")
+            let sport = prompt("What is your favourite sport?")
+            let player = prompt("Who is your favourite sport player?")
+        
+        if (sport === "football") {
+            alert("Thank you " +name + "!" + " ,we'll be in touch via email." + " Cheers to football ⚽️")
+        }else{
+             alert("Thank you " +name + "!" + " ,we'll be in touch via email." + " Enjoy!")
+            }
+
+        }
+        let buyButton = document.querySelector(".sale");
+        buyButton.addEventListener("click",negotiation)
+
+    </script>
+
+</body>
+</html>
